@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500&family=Vujahday+Script&display=swap');
+
+.main{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   background-image: url(./images/cloud.png);
+   background-color: #000;
+   background-repeat: no-repeat;
+   
+}
+.container{
+    width: 1200px;
+   
+   
+}
+
+body{
+   
+    font-family: 'Montserrat', sans-serif;
+
+    
+} 
+.section-title{
+    color: #FF008E;
+}
+    
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar li{
+    display: inline;
+    list-style: none;
+    margin: 0 10px;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+.banner-left h2{
+    font-size: 60px;
+    color: white;
+}
+.banner-left p{
+    font-size: 20px;
+    color: white;
+}
+.banner-left button{
+    background-color: #FF008E;
+    font-size: 30px;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 20px 0px 30px;
+}
+.feature{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 2px solid #FF008E;
+    
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main2{
+    display: flex;
+}
+
+
